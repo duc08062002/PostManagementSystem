@@ -1,0 +1,22 @@
+.register-input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-input label {
+    font-weight: bold;
+  }
+  
+  .register-input input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-input .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
